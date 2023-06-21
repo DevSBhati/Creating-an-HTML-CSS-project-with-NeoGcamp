@@ -2,70 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | DevWebsite</title>
+    <link href="style.css"rel="stylesheet" />
 </head>
 <body>
-    <h1>NeoGcamp's component library</h1>
-    <p>With the help of Tanay Pratap sir's guidance, I'm preparing a library which would make my projects look good and 
-    consistent.</p>
+    <nav class="navigation container">
+        <div class="nav-brand">DevWeb</div>
+        <ul class="nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/project.html">project</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blog.html">blog</a>
+            </li>
+        </ul>
+    </nav>
 
-    <hr >
+    <header class="hero">
+        <!-- <This is a way of putting image in your website> -->
+        <img class="hero-image" src="images/Projectimage.svg" />
+        <!-- We have used "<span></span>" inside "THE HERO" part of h1 of header to make the color of the "THE HERO" different from the rest
+             of the text of heading.   -->
+        <h1 class="hero-heading">WEB DEVELOPER<span style="color: var(--secondary-color)"> DEV BHATI</span></h1>
+    </header>
 
-    <h2>@explainig Typography</h2>
+    <section class="section br">
+        <div class="container container-centre">
+        <h1>Brown section</h1>
+        <p>This section will have Brown as its background color, which will make it stand out. This website 
+            is an attempt from me to learn how to code and create a new website.</p>
+        <a class="link list-item-inline link-primary" href="/">Blogs</a>
+    </div>
+    </section>
 
-    <h1>By using "h1" tag we can write the biggest text</h1>
-    <h2>By using "h2" tag we can write the second largest text</h2>
-    <p>By using "p" tag we can write paragraph like text, text that are usual in size</p>
-    <small>By using "small" tag, we can write text that are samll in size</small>
-
-    <hr >
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-
-    <hr >
-
-    <h2>@Links</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-    
-    <hr >
-
-    <h2>@Lists</h2>
-
-    <h3>By using "ul" tag, we can write unordered lists.</h3>
-
-    <ul>
-        <li>Item first</li>
-        <li>Item second</li>
-        <li>Item third</li>
-    </ul>
-
-    <h3>Unoredred inline list</h3>
-
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>reverse order list</h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-
-
+    <section class="section">
+        <div class="container container-centre">
+        <h1>White Section</h1>
+        <p>This section will have White as its background color, which will make it stand out. This website 
+            is an attempt from me to learn how to code and create a new website, although the process is feeling bit boring but still
+            trying to cope with it.
+        </p>
+        <a class="link list-item-inline link-primary" href="/">Projects</a>
+    </div>
+    </section>
+   
+    <footer class="footer">
+        <div class="footer-header">Link to my Social Media</div>
+        <ul class="social links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/DevSBhati">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/dev-bhati-b0a4691b0/">
+            Linkedin</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/home">Twitter</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

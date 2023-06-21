@@ -1,0 +1,16 @@
+        
+<!-- Ways of changing color style manually by executing these code directly on the html code  -->
+
+        <!-- CSS way 1: Style tag
+
+        <style>
+        body {
+            color:crimson;
+        }
+    </style> -->
+
+        <!-- (second way by which we can put color to specific font)<h1 style="color:aquamarine"></h1> -->
+
+        <!-- Third way of doing style:- 
+        <link href="style.css" rel="stylesheet" /> -->
+
